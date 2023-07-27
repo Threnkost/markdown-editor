@@ -90,9 +90,19 @@ textarea:focus {
   background: #555;
 }
 
-.section-title {
-  font-size: 14px;
-  color: #C1C4CB;
-  font-weight: 500;
-  letter-spacing: 2px;
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 1rem;
+}
+
+#header-menu-square {
+  width: 72px;
+  height: 72px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #35393F;
 }
